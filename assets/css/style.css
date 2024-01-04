@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HelveticaNeue';
+    font-family: 'Museo-Sans';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+a {
+    display: inline-block;
+}
+a:hover {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    color: #1F292D;
+    text-transform: inherit;
+    line-height: 50px;
+}
+h2 {
+    font-weight: 300;
+    font-size: 38px;
+    color: #1F292D;
+    text-transform: inherit;
+    line-height: 50px;
+}
+h3 {
+    font-weight: 900;
+    font-size: 18px;
+    color: #E4002B;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #333F48;
+    text-transform: inherit;
+    line-height: 25px;
+}
+/* ===============================================================================
+   =====                     Start Mobile Menu Area Css                      =====
+   =============================================================================== */
+   .main-menu-area .container-fluid {
+    padding: 0 51px;
+}
+.menu-middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.main-menu-logo img {
+    width: 185px;
+    height: auto;
+}
+.main-menu-cross img {
+    width: 18px;
+    height: auto;
+}
+.main-menu-header-area {
+    border-bottom: 1px solid #707070;
+    padding: 37.5px 0;
+}
+.main-menu-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.main-menu-link ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.main-menu-link ul li a {
+    font-weight: 300;
+    font-size: 25px;
+    color: #E4002B;
+    text-transform: inherit;
+    padding-bottom: 20px;
+}
+.home-mobile-version {
+    display: none;
+}
+.mobile-navigation-area {
+    background: #FFFFFF;
+    padding: 21px 0;
+    display: none;
+}
+.navigation-item ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.navigation-item ul li a {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333F48;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.navigation-item ul li a:hover {
+    color: #AA0323;
+}
+/* ===============================================================================
+   =====                      End Mobile Menu Area Css                       =====
+   =============================================================================== */
+/* ===============================================================================
+   =====                        Start Header Area Css                        =====
+   =============================================================================== */
+   .header-area {
+    background: #FFFFFF;
+    padding: 37.5px 0;
+}
+.header-area .container-fluid {
+    padding: 0 51px;
+}
+.header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header-right-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.header-right-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header-logo-icon img {
+    width: 20px;
+    height: auto;
+}
+.header-logo-text img {
+    width: 165px;
+    height: auto;
+}
+.header-single-logo img {
+    height: 30px;
+    width: auto;
+    margin-right: 16px;
+}
+.header-menu-icon img {
+    width: 18px;
+    height: auto;
+    margin-left: 20.2px;
+}
+/* ===============================================================================
+   =====                        Start Header Area Css                        =====
+   =============================================================================== */
+/* ===============================================================================
+   =====                    Start Power Resilience Area Css                  =====
+   =============================================================================== */
+   .power-resilience {
+    background: #F5F5F6;
+}
+.power-resilience-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.power-resilience-left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+.power-resilience-right {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 44%;
+    flex: 0 0 44%;
+    margin-left: 86px;
+    padding-top: 137px;
+    padding-bottom: 71.3px;
+    max-width: 485px;
+    width: 100%;
+}
+.power-resilience-left img {
+    width: 100%;
+    height: auto;
+}
+.power-resilience-left img.mobile {
+    display: none;
+}
+.power-resilience-heading span {
+    font-size: 13px;
+    display: none;
+}
+.power-resilience-heading p {
+    max-width: 472px;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 69px;
+}
+.power-resilience-heading p span {
+    display: none;
+}
+.power-resilience-heading h2 b {
+    font-weight: 700;
+}
+.power-view-details-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.power-view-details-img img {
+    width: 36px;
+    height: auto;
+}
+.power-view-details-text p,
+.power-view-details-text span {
+    font-weight: 900;
+    font-size: 16px;
+    color: #E4002B;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    max-width: 230px;
+    width: 100%;
+}
+.power-view-details-text span {
+    display: none;
+}
+.view-details-button a {
+    font-family: 'HelveticaNeue';
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #E4002B;
+    padding: 7px 18px;
+    text-transform: inherit;
+    border-radius: 2px;
+    margin-top: 40px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.view-details-button a:hover {
+    background: #AA0323;
+    color: #FFFFFF;
+}
+.view-details-button a img {
+    width: 14px;
+    height: auto;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+.home-mobile-version {
+    background: #F5F5F6;
+    padding: 31.6px 0;
+}
+.home-mobile-logo img.first {
+    width: 28px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.home-mobile-logo img.second {
+    width: 230px;
+    height: auto;
+}
+.home-mobile-extra-logo img {
+    width: 150px;
+    height: auto;
+}
+.home-mobile-border img {
+    width: 150px;
+    height: auto;
+    margin: 15px 0;
+}
+/* ===============================================================================
+   =====                     End Power Resilience Area Css                   =====
+   =============================================================================== */
+/* ===============================================================================
+   =====                         Start Speaker Area Css                      =====
+   =============================================================================== */
+.speaker-area {
+    background: #FFFFFF;
+    padding-top: 33px;
+}
+.speaker-area .container-fluid {
+    padding: 0 33px;
+}
+.specker-mobile-version {
+    display: none;
+}
+.speaker-content {
+    background: url('../images/bg/mask-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    padding: 65px 0;
+}
+.speaker-content p {
+    color: #FFFFFF;
+    max-width: 555px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+/* ===============================================================================
+   =====                          End Speaker Area Css                       =====
+   =============================================================================== */
+/* ===============================================================================
+   =====                        Start Our Topics Area Css                    =====
+   =============================================================================== */
+.our-topics {
+    background: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.our-topics-desktop-version .row {
+    justify-content: center;
+}
+.our-topics .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.our-topics-head h3 {
+    padding-bottom: 60px;
+}
+.our-topics-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.our-topics-single-items {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    padding-bottom: 15px;
+}
+.our-topics-single-items p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #E4002B;
+    text-transform: inherit;
+    padding-bottom: 5px;
+}
+.our-topics-single-image img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.our-topics-single-items h4 {
+    font-weight: 300;
+    font-size: 17px;
+    color: #333F48;
+    text-transform: inherit;
+    padding-top: 15px;
+}
+.our-topics-single-items h6 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #333F48;
+    text-transform: inherit;
+    padding-top: 5px;
+}
+.our-topics-single-items h5 {
+    font-weight: 300;
+    font-size: 14px;
+    color: #333F48;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+/* ===============================================================================
+   =====                         End Our Topics Area Css                     =====
+   =============================================================================== */
+/* ===============================================================================
+   =====                          Start Footer Area Css                      =====
+   =============================================================================== */
+.footer-area {
+    background: #333F48;
+    padding: 55.1px 0;
+}
+.footer-area .container-fluid {
+    padding: 0 123.1px;
+}
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.footer-left-content img {
+    width: 40px;
+    height: auto;
+}
+.footer-left-content img.mobile {
+    display: none;
+}
+.footer-social-area ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.footer-social-area ul li a {
+    background: #E4E4E4;
+    color: #333F48;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 33px;
+    margin-left: 14px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.footer-social-area ul li a:hover {
+    background: #FFFFFF;
+}
+.footer-social-area ul li:first-child a:hover {
+    color: #DF0019;
+}
+.footer-social-area ul li:nth-child(2) a:hover {
+    color: #DF0019;
+}
+.footer-social-area ul li:nth-child(3) a:hover {
+    color: #50ABF1;
+}
+.footer-social-area ul li:nth-child(4) a:hover {
+    color: #0270AD;
+}
+.footer-social-area ul li:nth-child(5) a:hover {
+    color: #763BB3;
+}
+.footer-social-area ul li:last-child a:hover {
+    color: #5677BF;
+}
+.main-menu-area {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    background: #FFFFFF;
+    z-index: 9999999999999999999999999 !important;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.canvas-menu {
+    -webkit-transform: translate(-100%, 0px);
+    transform: translate(-100%, 0px);
+}
+.full_waypper {
+    overflow: hidden !important;
+}
+
+.our-topics-single-image a {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.our-topics-single-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+/* ===============================================================================
+   =====                           End Footer Area Css                       =====
+   =============================================================================== */
